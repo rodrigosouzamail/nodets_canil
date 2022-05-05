@@ -3,7 +3,7 @@
 
 import { createEmitAndSemanticDiagnosticsBuilderProgram } from "typescript";
 type PetType = 'dog' | 'cat' | 'fish';
-type PetSex = 'Maculino' | 'Feminino';
+type PetSex = 'Masculino' | 'Feminino';
 // Filtrar os pets pelo nome
 type Pet = {
     type: PetType,
