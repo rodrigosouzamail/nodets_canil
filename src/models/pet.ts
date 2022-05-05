@@ -134,7 +134,7 @@ const data: Pet[] = [
     },
 ];
 
-export const pet = {
+export const Pet = {
     getAll: (): Pet[] => {
         return data;
     },
